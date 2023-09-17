@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 50vh;
+    background:#fe347e;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+    max-width: 50px;
+}
+
+nav ul li{
+    margin-top: 30%;
+}
+
+a{
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+}
