@@ -1,40 +1,42 @@
-root{
+:root{
     --main-color: #0f0d0d;
     --secondary-color:#fe347e;
-}:
+}
 
 *{
     margin: 0;
     padding: 0;
-    font-family:'poppins',sans-serif;
-    box-sizing: border-box;
 }
+
 body{
-    background: var(--main-color);
+    background:var(--main-color);
     color: #fff;
+    display: flex;
+}
+.pic{
+    position: fixed;
+    right: 0;
+    z-index: -10;
 }
 
 img{
-    position: fixed;
-    left: 50%;
-    z-index: -10;
-}
-.name{
     height: 100vh;
-    width: 70%;
+}
+#about{
+    width: 95%;
+    height: 100vh;
     background: linear-gradient(90deg,var(--main-color),var(--main-color),var(--main-color),var(--main-color), transparent);
     z-index: 10;
+    text-align:center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
+}
+#about p{
+  text-align: justify;
+}
+h1{
+    color:var(--secondary-color);
 }
 
-.firstname{
-    font-size: 5rem;
-    font-weight: 200;
-}
-.secondname{
-    font-size: 7rem;
-    font-weight: 900;
-}
