@@ -14,7 +14,7 @@ nav{
 }
 
 nav ul{
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: space-around;
     height: 50vh;
@@ -23,6 +23,7 @@ nav ul{
 
 nav ul li{
     margin-top: 30%;
+    display: inline-block;
 }
 
 a{
